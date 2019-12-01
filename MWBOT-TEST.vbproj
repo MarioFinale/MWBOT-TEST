@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>MWBOT_TEST</RootNamespace>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <AssemblyVersion>1.0.7274.35974</AssemblyVersion>
+    <FileVersion>1.0.7274.35974</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="MWBot.net">
+      <HintPath>E:\Users\MarioFinale\Documents\GitHub\Comp\netcoreapp3.0\MWBot.net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
