@@ -4,9 +4,8 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>MWBOT_TEST</RootNamespace>
     <TargetFramework>netcoreapp3.0</TargetFramework>
-    <AssemblyVersion>1.0.7274.37101</AssemblyVersion>
-    <FileVersion>1.0.7274.37101</FileVersion>
-    <ReferencePath>..\..\Comp\</ReferencePath>
+    <AssemblyVersion>1.0.7274.37214</AssemblyVersion>
+    <FileVersion>1.0.7274.37214</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
