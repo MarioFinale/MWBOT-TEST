@@ -1,9 +1,9 @@
 Imports System
-Imports MWBot
+Imports MWBot.net.WikiBot
 
 Module Program
     Sub Main(args As String())
-        MWBot.net.WikiBot.Bot.StartUpCheck()
+        Bot.StartUpCheck()
         Console.WriteLine("Press any key to exit...")
         Console.ReadKey()
     End Sub
