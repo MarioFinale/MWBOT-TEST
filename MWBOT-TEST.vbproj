@@ -4,13 +4,18 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>MWBOT_TEST</RootNamespace>
     <TargetFramework>netcoreapp3.0</TargetFramework>
-    <AssemblyVersion>1.0.7274.35974</AssemblyVersion>
-    <FileVersion>1.0.7274.35974</FileVersion>
+    <AssemblyVersion>1.0.7274.37002</AssemblyVersion>
+    <FileVersion>1.0.7274.37002</FileVersion>
+    <ReferencePath>E:\Users\MarioFinale\Documents\GitHub\MWBOT-TEST\MWBOT-TEST\../../Comp\</ReferencePath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>../../Comp\</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>
     <Reference Include="MWBot.net">
-      <HintPath>E:\Users\MarioFinale\Documents\GitHub\Comp\netcoreapp3.0\MWBot.net.dll</HintPath>
+      <HintPath>..\..\Comp\netcoreapp3.0\MWBot.net.dll</HintPath>
     </Reference>
   </ItemGroup>
 
