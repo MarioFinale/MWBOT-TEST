@@ -1,16 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <RootNamespace>MWBOT_TEST</RootNamespace>
     <TargetFramework>netcoreapp3.0</TargetFramework>
-    <AssemblyVersion>1.0.7274.37002</AssemblyVersion>
-    <FileVersion>1.0.7274.37002</FileVersion>
-    <ReferencePath>E:\Users\MarioFinale\Documents\GitHub\MWBOT-TEST\MWBOT-TEST\../../Comp\</ReferencePath>
+    <AssemblyVersion>1.0.7274.37101</AssemblyVersion>
+    <FileVersion>1.0.7274.37101</FileVersion>
+    <ReferencePath>..\..\Comp\</ReferencePath>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <OutputPath>../../Comp\</OutputPath>
+    <OutputPath>..\..\Comp\</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>
